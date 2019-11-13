@@ -1,0 +1,93 @@
+body{
+   background-color:rgb(247, 249, 252);
+   font-family: 'Lora', serif;
+   color: #575F7D;
+   font-size: 16px;
+}
+
+h1{
+  color:#575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+h2{
+  color: rgb(150, 50, 200);
+  font-family: 'roboto - medium', sans-serif;
+}
+a{
+  color: rgb(5, 184, 255);
+
+}
+a:hover{
+  opacity: 50%;
+}
+.card-bio p{
+  margin-bottom: 30px;
+}
+.teal-bttn{
+  text-decoration: none;
+  background-color: rgb(100, 180, 250);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  line-height: 3;
+}
+#first-avatar {
+  margin: 20px;
+  width:120px;
+  height:120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.container{
+  width: 730px;
+  margin: 0 auto;
+}
+.card-bio{
+  border-radius: 5px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 50,.2);
+  background-color: white;
+  border: 2px;
+  text-align: center;
+  padding:30px;
+  margin-bottom: 20px;
+}
+.card-social{
+  border-radius: 5px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 50,.2);
+  margin-top: 20px;
+  background-color: white;
+  border: 2px;
+  text-align: center;
+  padding:30px;
+}
+.social-list{
+  list-style: none;
+  padding:0;
+}
+.social-icon{
+  display: inline-block;
+  font-size: 50px;
+  margin-left: 20px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
